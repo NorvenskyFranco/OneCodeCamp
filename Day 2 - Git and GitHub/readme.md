@@ -17,10 +17,18 @@ git config -h or git help config
 git init
 
 ## Checking Status of Repository
-git status
-git add .
+git status                          "To check the status"
+git add .                           "To add all the file that has been modified to staging area"
+git add file_path                   "To add a specific file to staging area"
 git commit -m "initial commit"
 
 ## Checking commits
 git log
 git log --oneline
+
+# Branching
+
+git branch -a                    "To check current branch"
+git branch branch_name           "To create a branch"
+git checkout branch_name         "To switch branch"
+git merge branch_name            "To merge the branch"
