@@ -1,0 +1,52 @@
+span {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+.class-name {
+    color: red;
+    background-color: pink;
+}
+
+#id-name{
+    font-weight: bold;
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a[target="_blank"]{
+    text-decoration: none;
+}
+
+h1, h2, .parag{
+    color: orange;
+}
+
+.ancestor p{
+    font-style: italic;
+    color: green;
+}
+
+a:link{
+    color: green;
+}
+
+a:hover{
+    color: rebeccapurple;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: aqua;
+}
+
+p::first-letter{
+    font-size: 150%;
+}
+

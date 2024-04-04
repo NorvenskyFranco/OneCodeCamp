@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Formsh1
+    </title>
+</head>
+<body>
+    <h1>Creating Forms</h1>
+    <form action="">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="John Doe" required>
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="johndoe@gamil,com" required>
+        </div>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="**********" required>
+        </div>
+        <div>
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="age" placeholder="30" min="18" max="100" required>
+        </div>
+        <label for="message">Message:</label>
+        <div>  
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here."></textarea>
+        </div>
+        <div>
+            <label for="gender">Gender: </label>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" name="status" id="public" value="public">
+            <label for="status">Public</label>
+            <input type="radio" name="status" id="private" value="private">
+            <label for="private">Private</label>
+        </div>
+        <div>
+            <input type="checkbox" name="movies" id="movies" value="movies">
+            <label for="movies">Watching Movies</label>
+            <input type="checkbox" name="books" id="books" value="books">
+            <label for="books">Reading Book</label>
+            <input type="checkbox" name="running" id="running" value="running">
+            <label for="running">Running</label>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
